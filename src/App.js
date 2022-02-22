@@ -18,7 +18,7 @@ function App() {
     <Layout>
     <Router>
       <Header style={{color:'white'}}><MenuTop/></Header>
-      {/* <Content> */}
+      <Content>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/new-movies" element={<NewMovies />} />
@@ -27,7 +27,7 @@ function App() {
           <Route path="/movie/:id" element={<Movie />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
-      {/* </Content> */}
+      </Content>
     </Router>
     
     </Layout>
