@@ -17,7 +17,7 @@ function App() {
   return (
     <Layout>
     <Router>
-      <Header style={{color:'white'}}><MenuTop/></Header>
+      <Header style={{zIndex:1}}><MenuTop/></Header>
       <Content>
         <Routes>
           <Route path="/" element={<Home/>}/>
